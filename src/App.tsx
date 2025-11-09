@@ -14,6 +14,7 @@ import { LayoutSection } from './components/design-system/LayoutSection';
 import { CodeExamples } from './components/design-system/CodeExamples';
 import { TokensSection } from './components/design-system/TokensSection';
 import { IconsSection } from './components/design-system/IconsSection';
+import { ChatSection } from './components/design-system/ChatSection';
 import { Toaster } from './components/ui/sonner';
 
 export default function App() {
@@ -95,6 +96,9 @@ export default function App() {
 
           {/* Layout Patterns */}
           <LayoutSection />
+
+          {/* Chat Interfaces */}
+          <ChatSection />
 
           {/* Code Examples */}
           <CodeExamples />
